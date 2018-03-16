@@ -12,5 +12,5 @@ def sort_array_char_count(array)
   array.each do |element|
     counting_array << element.count+element
   end
-  counting_array.sort
+  puts counting_array.sort
 end
