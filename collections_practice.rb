@@ -21,3 +21,11 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(array)
+  elem = []
+  array.collect do |element|
+    elem << element.split("")
+    elem[2]="$"
+  end
+end
