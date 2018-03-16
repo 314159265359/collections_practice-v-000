@@ -44,9 +44,10 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each do |element|
+  array.each_with_index do |element|
+    if index != 1
     element += "s"
   end
-  array[1].chomp
+  end
   array
 end
