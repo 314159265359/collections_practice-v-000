@@ -26,10 +26,5 @@ def kesha_maker(array)
   array.collect do |element|
     element[2]="$"
   end
-end
-
-def find_a(array)
-  array.select do |element|
-    element = "a*"
-  end
+  array
 end
