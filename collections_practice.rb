@@ -48,6 +48,4 @@ def add_s(array)
     index != 1 ? element = element + "s" : element
   end
   puts array
-
-  #array = ["hands", "feet", "knees", "tables"]
 end
