@@ -51,6 +51,7 @@ def add_s(array)
     result <<  element + "s"
     #end
   end
+  puts result 
   puts array
 
   #array = ["hands", "feet", "knees", "tables"]
