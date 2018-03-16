@@ -55,9 +55,9 @@ def add_s(array)
   end
   end
   puts result
-  result[1] = array[1]
-  puts result
-  puts array
+  # result[1] = array[1]
+  # puts result
+  # puts array
 
   #array = ["hands", "feet", "knees", "tables"]
 end
