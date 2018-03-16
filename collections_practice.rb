@@ -42,3 +42,11 @@ def sum_array(array)
   end
   sum
 end
+
+def add_s(array)
+  array.each do |element|
+    element += "s"
+  end
+  array[1].chomp
+  array
+end
