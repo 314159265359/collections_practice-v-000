@@ -45,7 +45,7 @@ end
 
 def add_s(array)
   #result = []
-  array.(each_with_index).collect do |element,index|
+  array.enum_for(each_with_index).collect do |element,index|
   #array.each_with_index.collect do |element,index|
     if index != 1
     element = element + "s"
