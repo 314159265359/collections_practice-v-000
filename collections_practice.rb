@@ -49,10 +49,10 @@ def add_s(array)
     #result << element
     #result <<  element + "s"
     #puts result
-   else element
-    #else result << element
-    #puts result
-    end
+  #  else element
+  #   #else result << element
+  #   #puts result
+  #   end
   end
   #puts result
   # result[1] = array[1]
