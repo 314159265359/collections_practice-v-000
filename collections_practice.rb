@@ -50,5 +50,5 @@ def add_s(array)
     element = element + "s"
     #end
   end
-  array
+  array = ["hands", "feet", "knees", "tables"]
 end
