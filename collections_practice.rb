@@ -31,6 +31,6 @@ end
 
 def find_a(array)
   array.select do |element|
-    element = "a*"
+    element.start_with?("a")
   end
 end
