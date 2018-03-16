@@ -50,9 +50,10 @@ def add_s(array)
     if index != 1
     result <<  element + "s"
   else result << element
+    puts result
   end
   end
-  puts result 
+  puts result
   result[1] = array[1]
   puts result
   puts array
