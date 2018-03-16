@@ -27,4 +27,5 @@ def kesha_maker(array)
   array.collect do |element|
     element.insert 3 "$"
   end
+  array
 end
