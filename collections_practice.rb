@@ -44,22 +44,23 @@ def sum_array(array)
 end
 
 def add_s(array)
-  result = []
-  array.each_with_index do |element,index|
+  #result = []
+  array.each_with_index.collect do |element,index|
   #array.each_with_index.collect do |element,index|
     if index != 1
     element = element + "s"
-    result << element
+    #result << element
     #result <<  element + "s"
     #puts result
-    else result << element
+  else element
+    #else result << element
     #puts result
     end
   end
-  puts result
+  #puts result
   # result[1] = array[1]
   # puts result
-  # puts array
+  puts array
 
   #array = ["hands", "feet", "knees", "tables"]
 end
