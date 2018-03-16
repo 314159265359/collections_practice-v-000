@@ -45,19 +45,19 @@ end
 
 def add_s(array)
   result = []
-  array.each_with_index do |element|
+  array.each_with_index do |element,index|
   #array.each_with_index.collect do |element,index|
     if index != 1
     result <<  element + "s"
-    # puts result
-    else result << element
-    # puts result
-    end
+    puts result
+  else result << element
+    puts result
   end
-  # puts result
-  # result[1] = array[1]
-  # puts result
-  # puts array
+  end
+  puts result
+  result[1] = array[1]
+  puts result
+  puts array
 
   #array = ["hands", "feet", "knees", "tables"]
 end
