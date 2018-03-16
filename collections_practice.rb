@@ -8,9 +8,5 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  counting_array=[]
-  array.each do |element|
-    counting_array << element.count+element
-  end
-  puts counting_array.sort
+ array.sort(a.length,b.length)
 end
