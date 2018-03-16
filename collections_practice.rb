@@ -52,7 +52,7 @@ def add_s(array)
     #result << element
     #result <<  element + "s"
     #puts result
-  else element
+   else element
     #else result << element
     #puts result
     end
