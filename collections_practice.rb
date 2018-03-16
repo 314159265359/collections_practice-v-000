@@ -24,8 +24,8 @@ end
 
 def kesha_maker(array)
   array.collect do |element|
-    elem= [element.split]
-    element.insert 3 "$"
+    elem = [element.split]
+    elem[2]="$"
   end
   array
 end
